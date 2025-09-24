@@ -65,34 +65,46 @@ a {
   height: 50%;
 }
 
-.cards {
-  /* width: 20%; */
-  height: auto;
+/* SECTION 2 */
+
+.sec-2-heading {
+  padding-bottom: 2%;
+  text-align: center;
 }
 
-.cards img {
-  /* height: 30px; */
-  width: 200px;
+.cards {
+  display: flex;
+  gap: 1%;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
 }
 
 .pmons {
-  width: 100%;
   border: 1px solid black;
+  margin-left: 30%;
+  max-width: 30%;
+  height: 100px;
+
+  /* border: 1px solid black; */
 }
 
 .section-2 {
   padding: 2%;
 }
 
-.section-2 h2 {
-  align-items: center;
+/* SECTION 3 */
+
+.section-3 {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 30px;
+  padding: 5% 20%;
 }
 
-.section-2 ul {
-  display: flex;
-  /* flex-wrap: wrap; */
-}
-
-.cards img {
-  justify-items: center;
+.author {
+  font-weight: bold;
+  text-align: end;
 }
